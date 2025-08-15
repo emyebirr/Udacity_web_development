@@ -38,7 +38,29 @@
             <li>Nodes with no children are called leaves.</li>
             <li>Each node has a parent, except for the root node.</li>
         </ul>
+
         <ul>
     </div>
+
+    <!-- CSS Styling Notes and Examples (Inserted at line 43) -->
+    <div style="margin-top:2em; border-top:1px solid #ccc; padding-top:1em;">
+        <h2>CSS Styling Notes and Examples</h2>
+        <ul>
+            <li><strong>Inline CSS</strong> is applied directly to an element using the <code>style</code> attribute.</li>
+            <li><strong>Separate (internal) CSS</strong> is placed inside a <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section or in an external stylesheet file.</li>
+        </ul>
+        <p style="color: navy; background: #e0eaff; padding: 6px; border-radius: 4px;">This paragraph uses <strong>inline CSS</strong> for its color and background.</p>
+        <style>
+            .separate-style {
+                color: darkgreen;
+                background-color: #e0ffe0;
+                padding: 8px;
+                border-radius: 5px;
+            }
+        </style>
+        <p class="separate-style">This paragraph uses <strong>separate (internal) CSS</strong> defined in the &lt;style&gt; section of the head.</p>
+    </div>
+
 </body>
 </html>
+

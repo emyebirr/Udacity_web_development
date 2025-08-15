@@ -1,0 +1,13 @@
+h1,h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+li{
+    font-family: 'Rancho', cursive;
+    font-size: 1.15em;
+}
+p{
+    font-family: 'Libertinus Sans', sans-serif;
+    font-size: 1.2em;
+}

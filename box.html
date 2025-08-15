@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>boxes</title>
     <style>
-        div{
+        .blue-box{
             border: 10px solid blue;
             padding: 10px;
             margin: 75px;
@@ -13,10 +13,29 @@
             height: 200px;
             font-size: 1.75em;
             font-weight: bold;
+            float: right;
+        }
+        .red-box{
+            border: 10px solid red;
+            padding: 10px;
+            margin: 10px;
+            width: 50%;
+            height: 100px;
+            font-size: 1em;
+            font-weight: bold;
         }
         </style>
 </head>
 <body>
-    <div>Hooray, a box!</div>
+    <div class="blue-box">Hooray, a box!
+    <div class="red-box">Hello </div>
+    </div>
+
+    <p>
+      This is a sample placeholder text for your website. 
+      <span style="color: blue;">You can use this text</span> to fill spaces while designing your page. 
+      <span style="font-weight: bold; background: #ffe4b2;">It helps you focus on layout</span> rather than content. 
+      <span style="text-decoration: underline; color: green;">Try changing the styles</span> to see how inline CSS works!
+    </p>
 </body>
 </html>
